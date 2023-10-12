@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - SocialLink</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/249ebeb806.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="Notification Icon"></li>
+                <li><img src="images/inbox.png" alt="Inbox Icon"></li>
+                <li><img src="images/video.png" alt="Video Icon"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+         
+            <div class="search-box">
+                <img src="images/search.png" alt="Search Icon">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="Profile Icon">
+            </div>
+
+        </div>
+        <!--settings-menu-->
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Rakesh</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon" alt="Setting">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon" alt="Help">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon" alt="Display">
+                    <a href="#">Display & Accessibilty <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon" alt="Logout">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+     <!--profile page-->
+
+     <div class="profile-container">
+        <img src="images/cover.png" alt="cover photo" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" alt="Profile" class="pd-image">
+                    <div>
+                        <h3>Rakesh</h3>
+                        <p>500 Friends - 65 mutual</p>
+                        <img src="images/member-1.png" alt="Images">
+                        <img src="images/member-2.png" alt="Images">
+                        <img src="images/member-3.png" alt="Images">
+                        <img src="images/member-4.png" alt="Images">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="images/add-friends.png" alt="Add Friends">Friend</button>
+                <button type="button"><img src="images/message.png" alt="Message">Message</button>
+                <br>
+                <a href=""><img src="images/more.png" alt="More"></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself for you will makes <img src="images/feeling.png" alt="Feeling"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt="Job">CEO Rakesh Corporation</li>
+                        <li><img src="images/profile-study.png" alt="Job">Studied at Harvard and University of Ghana</li>
+                        <li><img src="images/profile-study.png" alt="Job">Went to MIS</li>
+                        <li><img src="images/profile-location.png" alt="Job">Lives in Miami, US</li>
+                        <li><img src="images/profile-location.png" alt="Job">From Ghana</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt="Photo"></div>
+                        <div><img src="images/photo2.png" alt="Photo"></div>
+                        <div><img src="images/photo3.png" alt="Photo"></div>
+                        <div><img src="images/photo4.png" alt="Photo"></div>
+                        <div><img src="images/photo5.png" alt="Photo"></div>
+                        <div><img src="images/photo6.png" alt="Photo"></div>
+                    </div>
+
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                    </div>
+                    <p>500 (65 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt="Friend"><p>Joseph</p></div>
+                        <div><img src="images/member-2.png" alt="Friend"><p>Nathan</p></div>
+                        <div><img src="images/member-3.png" alt="Friend"><p>George</p></div>
+                        <div><img src="images/member-4.png" alt="Friend"><p>Joe</p></div>
+                        <div><img src="images/member-5.png" alt="Friend"><p>Dorcas</p></div>
+                        <div><img src="images/member-6.png" alt="Friend"><p>Peter</p></div>
+                        <div><img src="images/member-7.png" alt="Friend"><p>Hernandez</p></div>
+                        <div><img src="images/member-8.png" alt="Friend"><p>Mars</p></div>
+                        <div><img src="images/member-9.png" alt="Friend"><p>Joyce</p></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                        <div>
+                            <p>Rakesh</p>
+                            <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Rakesh"></textarea>
+                        
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="Live Video"> Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="Photo/Video"> Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="Feeling/Activity"> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="User Profile Picture">
+                        <div>
+                            <p>Rakesh</p>
+                            <span>June 24 2021, 7:57 pm</span>
+                        </div>
+                    </div>  
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+                
+    
+                    <p class="post-text"> I am Rakesh <span>and this is my first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                    <img src="images/feed-image-1.png" alt="Feed" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="Likes"> 120</div>
+                            <div><img src="images/comments.png" alt="Comments"> 35</div>
+                            <div><img src="images/share.png" alt="Share"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="User Profile Picture">
+                        <div>
+                            <p>Awurama Adusei</p>
+                            <span>18th November,2022</span>
+                        </div>
+                    </div>  
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+                
+    
+                    <p class="post-text"> Like and comment this post<span>this is my first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                    <img src="images/feed-image-2.png" alt="Feed" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="Likes"> 120</div>
+                            <div><img src="images/comments.png" alt="Comments"> 35</div>
+                            <div><img src="images/share.png" alt="Share"> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                        </div>
+                    </div>
+                </div> 
+                            
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="User Profile Picture">
+                        <div>
+                            <p>Eunice Adusei</p>
+                            <span>18th November,2022</span>
+                        </div>
+                    </div>  
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+    
+                    <p class="post-text"> Looking great<span>Here to stay</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                    <img src="images/feed-image-3.png" alt="Feed" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="Likes"> 120</div>
+                            <div><img src="images/comments.png" alt="Comments"> 35</div>
+                            <div><img src="images/share.png" alt="Share"> 20</div>
+                        </div>
+                    </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                        </div> 
+                </div>
+    
+            </div>
+        </div>
+
+     </div>
+
+
+    <div class="footer">
+        <p>Copyright 2022 - SocialLink</p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

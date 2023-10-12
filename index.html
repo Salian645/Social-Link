@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialLink</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/249ebeb806.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" alt="Logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="Notification Icon"></li>
+                <li><img src="images/inbox.png" alt="Inbox Icon"></li>
+                <li><img src="images/video.png" alt="Video Icon"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+         
+            <div class="search-box">
+                <img src="images/search.png" alt="Search Icon">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="Profile Icon">
+            </div>
+
+        </div>
+        <!--dropdown-settings-menu-->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Rakesh</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon" alt="Setting">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon" alt="Help">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon" alt="Display">
+                    <a href="#">Display & Accessibilty <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon" alt="Logout">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--left-sidebar-->
+        <div class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="images/news.png" alt="Latest News Icon">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="Friends Icon">Friends</a>
+                <a href="#"><img src="images/group.png" alt="Groups Icon">Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="Marketplace Icon">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="Watch Icon">watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="Web Developers Shortcut">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="Web Design Shortcut">Web Design</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="Full Stack Development Shortcut">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="Web Expert Shortcut">Web Expert</a>
+            </div>
+        </div>
+
+         <!--main-content-->
+         <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="Post Icon">
+                    <p>Post Story</p>
+                </div>
+            
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="Dorcas">
+                    <p>Dorcas</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="Rakesh">
+                    <p>Rakesh</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="Eunice">
+                    <p>Eunice</p>
+                </div>
+                
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="Adusei">
+                    <p>Adusei</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Rakesh</p>
+                        <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Rakesh"></textarea>
+                    
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="Live Video"> Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="Photo/Video"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="Feeling/Activity"> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Rakesh</p>
+                        <span>June 24 2021, 7:57 pm</span>
+                    </div>
+                </div>  
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+            
+
+                <p class="post-text"> I am Rakesh <span>and this is my first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                <img src="images/feed-image-1.png" alt="Feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="Likes"> 120</div>
+                        <div><img src="images/comments.png" alt="Comments"> 35</div>
+                        <div><img src="images/share.png" alt="Share"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Awurama Adusei</p>
+                        <span>18th November,2022</span>
+                    </div>
+                </div>  
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+            
+
+                <p class="post-text"> Like and comment this post<span>this is my first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                <img src="images/feed-image-2.png" alt="Feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="Likes"> 120</div>
+                        <div><img src="images/comments.png" alt="Comments"> 35</div>
+                        <div><img src="images/share.png" alt="Share"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                    </div>
+                </div>
+            </div> 
+                        
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Eunice Adusei</p>
+                        <span>18th November,2022</span>
+                    </div>
+                </div>  
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+
+                <p class="post-text"> Looking great<span>Here to stay</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                <img src="images/feed-image-3.png" alt="Feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="Likes"> 120</div>
+                        <div><img src="images/comments.png" alt="Comments"> 35</div>
+                        <div><img src="images/share.png" alt="Share"> 20</div>
+                    </div>
+                </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                    </div> 
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Paul Dwomoh</p>
+                        <span>15th February,2023, 15:22pm</span>
+                    </div>
+                </div>  
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+
+                <p class="post-text"> Like and comment on<span> my first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                <img src="images/feed-image-4.png" alt="Feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="Likes"> 120</div>
+                        <div><img src="images/comments.png" alt="Comments"> 35</div>
+                        <div><img src="images/share.png" alt="Share"> 20</div>
+                    </div>
+                </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                    </div> 
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="User Profile Picture">
+                    <div>
+                        <p>Awurama Adusei</p>
+                        <span>18th November,2022</span>
+                    </div>
+                </div>  
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>                  
+
+                <p class="post-text">Cerified Doctor<span>here is first SocialLink post.</span> <a href="#">#SocialLink</a> <a href="#">#AddMe</a></p>
+                <img src="images/feed-image-5.png" alt="Feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="Likes"> 120</div>
+                        <div><img src="images/comments.png" alt="Comments"> 35</div>
+                        <div><img src="images/share.png" alt="Share"> 20</div>
+                    </div>
+                </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="Profile Picture"><i class="fa-sharp fa-solid fa-caret-down"></i> 
+                    </div> 
+         </div>
+        
+
+            <button type="button" class="load-more-btn">Load More</button>
+        
+
+
+        </div>
+
+         <!--right-sidebar-->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+            
+            <img src="images/advertisement.png" alt="Advertisement" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chats</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="Online">
+                </div>
+                <p>Dorcas Adusei</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="Online">
+                </div>
+                <p>Rakesh Salian</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="Online">
+                </div>
+                <p>Eunice Adusei</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2022 - SocialLink</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
